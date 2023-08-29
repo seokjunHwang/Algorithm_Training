@@ -7,7 +7,11 @@ class ListNode(object):
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
+"""
+0(n) : time 복잡도
+0(n) : space 복잡도
 
+"""
 class Solution(object):
     def reverseList(self, head : Optional[ListNode]) -> Optional[ListNode] :
         stack = []
